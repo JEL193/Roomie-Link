@@ -8,9 +8,10 @@ import ForumIcon from '@mui/icons-material/Forum';
 function Header() {
   return (
     <div className='header'> 
-    <h2> i am a header</h2>
     <AccountCircleIcon />
-    <ForumIcon />    
+    <img src = "../public/roomielogo.png"></img>
+
+    <ForumIcon />
      
 
     </div>
