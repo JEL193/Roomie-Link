@@ -1,17 +1,17 @@
 import React from 'react';
 import Header from './Header';
+import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1> Let's build a app</h1>
+
 
       
         {/*header*/}
         <Header/>
-     
-    
+
         {/*tinder card*/}
 
         {/*buttons below tinder cards*/}
