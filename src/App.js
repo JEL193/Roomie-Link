@@ -22,7 +22,7 @@ function App() {
               <Switch>
                  <Route path = "/chat">
                    <Header backButton = "/"/>
-                   <h1>I am chatpage</h1>
+                   <h1>I am not a chatpage</h1>
                 </Route>
                   <Route path = "/">
                   <Header />
